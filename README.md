@@ -2,7 +2,7 @@
 
 ## What's this?
 
-only a way to resolve the problem about conflicts between the inside/outside frameworks.
+One way to resolve the problem about conflicts between the inside/outside frameworks.
 
 Somethmes we will create a function which is same with another which comes from 3rd party source code.
 
@@ -16,3 +16,5 @@ You should be familiar with **.rx.{function name}** and **.snp.{function name}**
 If do like this. we can provide our own style framework API to outside. Of course, the conflicts should be resolved.
 
 ## Example
+
+![image](https://github.com/Ericji1989114/CustomSyntaxExtension/blob/master/Screenshot/Example.png)
