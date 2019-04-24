@@ -16,9 +16,6 @@ extension UIColor: CustomExtProtocol {
         return CustomColor.self
     }
     
-    
-    typealias T = CustomColor
-    
     public var jiyun: CustomColor {
         return CustomColor(color: self)
     }

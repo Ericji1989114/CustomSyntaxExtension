@@ -15,9 +15,6 @@ extension String: CustomExtProtocol {
         return CustomString.self
     }
     
-    
-    typealias T = CustomString
-    
     public var jiyun: CustomString {
         return CustomString(string: self)
     }
