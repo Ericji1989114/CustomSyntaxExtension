@@ -9,9 +9,16 @@
 import UIKit
 
 // instance function
-public extension String {
+extension String: CustomExtProtocol {
     
-    var jiyun: CustomString {
+    public static var jiyun: CustomString.Type {
+        return CustomString.self
+    }
+    
+    
+    typealias T = CustomString
+    
+    public var jiyun: CustomString {
         return CustomString(string: self)
     }
 }

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C568F4C226FEC8100A12AF9 /* CustomExtProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C568F4B226FEC8100A12AF9 /* CustomExtProtocol.swift */; };
 		4CA18685226EE39E005DFDC2 /* CustomSyntaxExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA18683226EE39E005DFDC2 /* CustomSyntaxExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA1868C226EE3AD005DFDC2 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1868B226EE3AD005DFDC2 /* StringEx.swift */; };
 		4CA1868E226EE3B7005DFDC2 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1868D226EE3B7005DFDC2 /* UIColorEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C568F4B226FEC8100A12AF9 /* CustomExtProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtProtocol.swift; sourceTree = "<group>"; };
 		4CA18680226EE39E005DFDC2 /* CustomSyntaxExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomSyntaxExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA18683226EE39E005DFDC2 /* CustomSyntaxExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSyntaxExtension.h; sourceTree = "<group>"; };
 		4CA18684226EE39E005DFDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				4CA18684226EE39E005DFDC2 /* Info.plist */,
 				4CA1868B226EE3AD005DFDC2 /* StringEx.swift */,
 				4CA1868D226EE3B7005DFDC2 /* UIColorEx.swift */,
+				4C568F4B226FEC8100A12AF9 /* CustomExtProtocol.swift */,
 			);
 			path = CustomSyntaxExtension;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C568F4C226FEC8100A12AF9 /* CustomExtProtocol.swift in Sources */,
 				4CA1868E226EE3B7005DFDC2 /* UIColorEx.swift in Sources */,
 				4CA1868C226EE3AD005DFDC2 /* StringEx.swift in Sources */,
 			);
