@@ -20,7 +20,7 @@ extension String: CustomExtProtocol {
     }
 }
 
-public struct CustomString {
+public class CustomString {
     
     private let instance: String
     

@@ -21,7 +21,7 @@ extension UIColor: CustomExtProtocol {
     }
 }
 
-public struct CustomColor {
+public class CustomColor {
     
     private let instance: UIColor
     
